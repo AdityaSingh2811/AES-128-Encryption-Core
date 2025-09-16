@@ -1,7 +1,4 @@
-AES-128 Encryption Core: A Detailed Technical Report
-Author: Aditya Singh
-Target Platform: Xilinx Artix-7 AC701 Evaluation Platform
-Development Tool: Xilinx Vivado Design Suite 2025.1
+AES-128 Encryption Core, platformed on Xilinx Artix- AC701 Evaluation Platform and developed using Xilinx Vivado Design suite.
 
 1. Project Overview and Design Philosophy
 This report provides a comprehensive technical description of a hardware-based AES-128 encryption core implemented in the Verilog HDL. The primary objective was to architect a secure, efficient, and reusable IP (Intellectual Property) core for FPGA implementation, capable of performing high-speed data encryption as specified by the FIPS-197 standard. The core is designed to encrypt one 128-bit data block using a 128-bit key. The chosen architecture prioritizes a balance between hardware resource utilization and performance, making it suitable for a wide range of applications where dedicated hardware acceleration for cryptography is required.
